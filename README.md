@@ -5,14 +5,18 @@ I Will publish new template and breakdown every week.
 
 # Templates
 
-## 1 - CoolCatsNFT
+### #1 - CoolCatsNFT
 A well written and gas efficient contract that you can use to deploy basic NFTs.
+
 [Template](https://github.com/marcelc63/coolcatsnft-template)
+
 [Breakdown](https://twitter.com/Marcelc63/status/1447955252431392769)
 
-## 2 - SuperSea
+### #2 - SuperSea
 Use the smart contract to create NFT membership and subscriptions for your SaaS.
+
 [Template](https://github.com/marcelc63/supersea-template)
+
 [Breakdown](https://twitter.com/Marcelc63/status/1450493454522351620)
 
 
