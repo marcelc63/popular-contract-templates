@@ -12,12 +12,16 @@ A well written and gas efficient contract that you can use to deploy basic NFTs.
 
 [Breakdown](https://twitter.com/Marcelc63/status/1447955252431392769)
 
+Published 12 October 2021
+
 ### #2 - SuperSea
 Use the smart contract to create NFT membership and subscriptions for your SaaS.
 
 [Template](https://github.com/marcelc63/supersea-template)
 
 [Breakdown](https://twitter.com/Marcelc63/status/1450493454522351620)
+
+Published 19 October 2021
 
 
 # Who am I?
