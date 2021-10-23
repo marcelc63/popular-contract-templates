@@ -1,7 +1,7 @@
 # Popular Contract Templates
-This repository is to link to templates of popular smart contracts that I curate. Each contract is unique and cover different aspect and mechanism of the smart contracts. It includes annotation explaining what each functions does, test script and deployment script using hardhat. There is also a detailed deep dive for each contract.
+This repository links to templates of popular smart contracts that I curate. Each contract is unique and cover different aspect and mechanism of the smart contract. It includes full commentary explaining what each function does, test script and deployment script using hardhat. There is also a detailed deep dive breakdown for each contract.
 
-I Will publish new template and breakdown every week.
+I will publish new template and breakdown every week.
 
 # Templates
 
