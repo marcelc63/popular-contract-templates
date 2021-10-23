@@ -28,3 +28,4 @@ Published 19 October 2021
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
 
 You can find my twitter [@marcelc63](https://twitter.com/marcelc63)
+You can tip me eth at [https://tipeth.xyz/marcelc63.eth](https://tipeth.xyz/marcelc63.eth)
