@@ -24,6 +24,15 @@ Use the smart contract to create NFT membership and subscriptions for your SaaS.
 Published 19 October 2021
 
 
+### #3 - Loot
+A way to create on-chain NFT without needing to use IPFS or external links to host images.
+
+[Template](https://github.com/marcelc63/loot-template)
+[Breakdown](https://twitter.com/marcelc63/status/1453031703723732995)
+
+Published 26 October 2021
+
+
 # Who am I?
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
 
