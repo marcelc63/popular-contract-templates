@@ -28,6 +28,7 @@ Published 19 October 2021
 A way to create on-chain NFT without needing to use IPFS or external links to host images.
 
 [Template](https://github.com/marcelc63/loot-template)
+
 [Breakdown](https://twitter.com/marcelc63/status/1453031703723732995)
 
 Published 26 October 2021
