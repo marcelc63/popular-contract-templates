@@ -1,10 +1,10 @@
-# Solidity Contract Template based on
+# Solidity Contract Template based on AltNouns by [@onChainCo](https://twitter.com/onChainCo) [https://occ.xyz](https://occ.xyz)
 
-Source: [https://etherscan.io/address/](https://etherscan.io/address/)
+Source: [https://etherscan.io/address/0x971a6ff4f5792f3e0288f093340fb36a826aae96](https://etherscan.io/address/0x971a6ff4f5792f3e0288f093340fb36a826aae96)
 
-Add Introduction Here
+[@onChainCo](https://twitter.com/onChainCo) drop this marvel of a contract. AltNouns is a derivative of NounsDAO. As a new Noun gets minted, a new AltNouns will be created. This makes AltNouns an infinite derivative that will create new derivative forever.
 
-Add Summary Here
+AltNouns achieve this through two main mechanism: calling Nouns' smart contract and clever SVG manipulation. In this template we'll see how AltNouns is able to be an infinite derivative and how to alters the original Noun SVG.
 
 Curated by [@marcelc63](https://twitter.com/marcelc63) - [marcelchristianis.com](https://marcelchristianis.com)
 Each functions have been annotated based on my own research.
@@ -26,6 +26,8 @@ Please do the followings
 2. Complete commentary on core functions
 3. Deployment Script
 4. Testing Script
+
+**NOTE: Testing might not work for this template since it tries to call Noun's smart contract but that only exists in Mainnet. You might need to run your own instance of Nouns' smart contract.**
 
 # Commands to use
 
