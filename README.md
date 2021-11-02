@@ -42,7 +42,7 @@ Create infinite derivative NFTs through inter contract calls and do dope SVG man
 
 [Template](https://github.com/marcelc63/popular-contract-templates/tree/altnouns-template)
 
-[Breakdown]() - Soon
+[Breakdown](https://twitter.com/marcelc63/status/1455556881280159746)
 
 Published 2 November 2021
 
