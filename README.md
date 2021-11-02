@@ -1,42 +1,41 @@
-# Popular Contract Templates
-This repository links to templates of popular smart contracts that I curate. Each contract is unique and cover different aspect and mechanism of the smart contract. It includes full commentary explaining what each function does, test script and deployment script using hardhat. There is also a detailed deep dive breakdown for each contract.
+# Solidity Contract Template based on
 
-I will publish new template and breakdown every week.
+Source: [https://etherscan.io/address/](https://etherscan.io/address/)
 
-# Templates
+Add Introduction Here
 
-### #1 - CoolCatsNFT
-A well written and gas efficient contract that you can use to deploy basic NFTs.
+Add Summary Here
 
-[Template](https://github.com/marcelc63/coolcatsnft-template)
+Curated by [@marcelc63](https://twitter.com/marcelc63) - [marcelchristianis.com](https://marcelchristianis.com)
+Each functions have been annotated based on my own research.
 
-[Breakdown](https://twitter.com/Marcelc63/status/1447955252431392769)
+Feel free to use and modify as you see appropriate
 
-Published 12 October 2021
+# Using the Template
 
-### #2 - SuperSea
-Use the smart contract to create NFT membership and subscriptions for your SaaS.
+Please do the followings
 
-[Template](https://github.com/marcelc63/supersea-template)
+1. Modify any code that's labeled with TODO
+2. Change the baseURI in deploy.js, run.js, and test.js
+3. Make sure to create your own .env and modify hardhat.config.js accordingly with your deployment URL and accounts private key.
+4. Remove the comments and annotation
 
-[Breakdown](https://twitter.com/Marcelc63/status/1450493454522351620)
+# Included in the Template
 
-Published 19 October 2021
+1. Contract that CoolCatsNFT used
+2. Complete commentary on core functions
+3. Deployment Script
+4. Testing Script
 
+# Commands to use
 
-### #3 - Loot
-A way to create on-chain NFT without needing to use IPFS or external links to host images.
+```
+// To test
 
-[Template](https://github.com/marcelc63/loot-template)
+npx hardhat run scripts/run.js
+npx hardhat test
 
-[Breakdown](https://twitter.com/marcelc63/status/1453031703723732995)
+// To deploy to Rinkeby testnet
 
-Published 26 October 2021
-
-
-# Who am I?
-My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
-
-You can find my twitter [@marcelc63](https://twitter.com/marcelc63)
-
-You can tip me eth at [https://tipeth.xyz/marcelc63.eth](https://tipeth.xyz/marcelc63.eth)
+npx hardhart run scripts/deploy.js --network rinkeby
+```
