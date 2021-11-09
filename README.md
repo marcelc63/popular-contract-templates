@@ -52,7 +52,7 @@ Create ERC20 tokens based on NFT ownership to airdrop to holders.
 
 [Template](https://github.com/marcelc63/popular-contract-templates/tree/adventure-gold)
 
-[Breakdown](https://twitter.com/marcelc63) - Publishing soon
+[Breakdown](https://twitter.com/marcelc63/status/1458102571260788736)
 
 Published 9 November 2021
 
