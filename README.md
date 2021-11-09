@@ -46,6 +46,16 @@ Create infinite derivative NFTs through inter contract calls and do dope SVG man
 
 Published 2 November 2021
 
+### #5 - Adventure Gold
+
+Create ERC20 tokens based on NFT ownership to airdrop to holders.
+
+[Template](https://github.com/marcelc63/popular-contract-templates/tree/adventure-gold)
+
+[Breakdown](https://twitter.com/marcelc63) - Publishing soon
+
+Published 9 November 2021
+
 # Who am I?
 
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
