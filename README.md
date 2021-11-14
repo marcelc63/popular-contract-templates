@@ -62,7 +62,7 @@ NFT by @dhof that gains insight. Insights stabilize over time and destabilize wh
 
 [Template](https://github.com/marcelc63/popular-contract-templates/tree/corruptions-template)
 
-[Breakdown](https://twitter.com/marcelc63/status/1458102571260788736)
+[Breakdown](https://twitter.com/marcelc63/status/1459700388177727488)
 
 Published 14 November 2021
 
