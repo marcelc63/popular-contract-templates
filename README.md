@@ -56,6 +56,16 @@ Create ERC20 tokens based on NFT ownership to airdrop to holders.
 
 Published 9 November 2021
 
+### #6 - Corruption(s\*)
+
+NFT by @dhof that gains insight. Insights stabilize over time and destabilize when moved.
+
+[Template](https://github.com/marcelc63/popular-contract-templates/tree/corruptions-template)
+
+[Breakdown](https://twitter.com/marcelc63/status/1458102571260788736)
+
+Published 14 November 2021
+
 # Who am I?
 
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
