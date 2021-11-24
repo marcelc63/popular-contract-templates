@@ -80,7 +80,7 @@ Published 18 November 2021
 
 ChainRunners created a 32x32 pixel art all stored on chain. See how on chain pixel generation works.
 
-[Template](https://github.com/marcelc63/popular-contract-templates/blob/chainrunners-template)
+[Template](https://github.com/marcelc63/popular-contract-templates/tree/chainrunners-template)
 
 [Breakdown](https://mobile.twitter.com/marcelc63/status/1463333687932510211)
 
