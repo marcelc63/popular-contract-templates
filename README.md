@@ -76,6 +76,16 @@ ConstitutionDAO raised 11,000 eth in 4 days through GnosisSafe Multisig. See how
 
 Published 18 November 2021
 
+### #8 - ChainRunners
+
+ChainRunners created a 32x32 pixel art all stored on chain. See how on chain pixel generation works.
+
+[Template](https://github.com/marcelc63/popular-contract-templates/blob/chainrunners-template)
+
+[Breakdown](https://mobile.twitter.com/marcelc63/status/1463333687932510211)
+
+Published 24 November 2021
+
 # Who am I?
 
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
