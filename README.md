@@ -94,7 +94,7 @@ Wolf Game is a risk-based game playable entirely on chain. See how on chain risk
 
 [Breakdown](https://twitter.com/marcelc63/status/1465868099190591491)
 
-Published 24 November 2021
+Published 2 December 2021
 
 # Who am I?
 
