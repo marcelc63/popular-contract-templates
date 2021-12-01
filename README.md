@@ -86,6 +86,16 @@ ChainRunners created a 32x32 pixel art all stored on chain. See how on chain pix
 
 Published 24 November 2021
 
+### #9 - Wolf Game
+
+Wolf Game is a risk-based game playable entirely on chain. See how on chain risk-based game works.
+
+[Template](https://github.com/marcelc63/popular-contract-templates/tree/wolfgame-template)
+
+[Breakdown](https://twitter.com/marcelc63/status/1465868099190591491)
+
+Published 24 November 2021
+
 # Who am I?
 
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
