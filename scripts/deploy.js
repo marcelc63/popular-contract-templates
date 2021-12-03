@@ -1,7 +1,10 @@
 const main = async () => {
-  const ContractFactory = await hre.ethers.getContractFactory("Template");
+  const ContractFactory = await hre.ethers.getContractFactory("CoolCats");
 
-  const contract = await ContractFactory.deploy();
+  // TODO: Change to where you will host your metadata
+  const baseURI = "https://api.example.com";
+
+  const contract = await ContractFactory.deploy({ args: [baseURI] });
   await contract.deployed();
   console.log("Contract deployed to:", contract.address);
 };
