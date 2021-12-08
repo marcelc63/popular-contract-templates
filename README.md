@@ -96,6 +96,16 @@ Wolf Game is a risk-based game playable entirely on chain. See how on chain risk
 
 Published 2 December 2021
 
+### #10 - Curious Addys
+
+Curious Addys is an NFT with 100% refund mechanism. See how to implement refunds into your contract.
+
+[Template](https://github.com/marcelc63/popular-contract-templates/tree/curiousaddys-template)
+
+[Breakdown](https://twitter.com/marcelc63/status/1468399946529341442)
+
+Published 2 December 2021
+
 # Who am I?
 
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
