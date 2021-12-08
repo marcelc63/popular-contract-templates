@@ -104,7 +104,7 @@ Curious Addys is an NFT with 100% refund mechanism. See how to implement refunds
 
 [Breakdown](https://twitter.com/marcelc63/status/1468399946529341442)
 
-Published 2 December 2021
+Published 8 December 2021
 
 # Who am I?
 
