@@ -106,6 +106,16 @@ Curious Addys is an NFT with 100% refund mechanism. See how to implement refunds
 
 Published 8 December 2021
 
+### #11 - AlphaGirlClub
+
+AlphaGirlClub took the extra step to make minting gas efficient. In a good day, minting can cost just $8 in gas! See how you can reduce gas for your own project.
+
+[Template](https://github.com/marcelc63/popular-contract-templates/tree/alphagirlclub-template)
+
+[Breakdown](https://twitter.com/marcelc63/status/1470936661970210817)
+
+Published 8 December 2021
+
 # Who am I?
 
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
