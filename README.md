@@ -114,7 +114,7 @@ AlphaGirlClub took the extra step to make minting gas efficient. In a good day, 
 
 [Breakdown](https://twitter.com/marcelc63/status/1470936661970210817)
 
-Published 8 December 2021
+Published 15 December 2021
 
 # Who am I?
 
