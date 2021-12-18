@@ -23,7 +23,8 @@ abstract contract AdidasOriginalsInterface {
   function safeTransferFrom(
     address from,
     address to,
-    uint256 tokenId
+    uint256 tokenId,
+    uint256 amount
   ) external virtual;
 }
 
@@ -31,11 +32,22 @@ contract ChildContract {
   address transferAddress = 0xFABB0ac9d68B0B445fB7357272Ff202C5651694a; // Pretend this is the transfer address
   address adidasOriginals = 0x28472a58A490c5e09A238847F66A68a47cC76f0f;
   uint8 counter;
-
-  // TODO: Update Constructor
+  uint256[] tokenId;
 
   function mintAdidasOriginals() external payable {
     AdidasOriginalsInterface(adidasOriginals).purchase{ value: msg.value }(2);
+
+    for (uint256 i; i < tokenId.length; i++) {
+      AdidasOriginalsInterface(adidasOriginals).safeTransferFrom(
+        address(this),
+        transferAddress,
+        tokenId[i],
+        1
+      );
+    }
+
+    address payable addr = payable(address(transferAddress));
+    selfdestruct(addr);
   }
 
   function onERC1155Received(
@@ -45,17 +57,7 @@ contract ChildContract {
     uint256 value,
     bytes calldata data
   ) external returns (bytes4) {
-    AdidasOriginalsInterface(adidasOriginals).safeTransferFrom(
-      address(this),
-      transferAddress,
-      id
-    );
-
-    counter += 1;
-    if (counter == 2) {
-      address payable addr = payable(address(transferAddress));
-      selfdestruct(addr);
-    }
+    tokenId.push(id);
 
     return
       bytes4(
