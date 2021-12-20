@@ -116,6 +116,16 @@ AlphaGirlClub took the extra step to make minting gas efficient. In a good day, 
 
 Published 15 December 2021
 
+### #11 - AdidasOriginals
+
+Someone was able to mint 300 AdidasOriginals NFTs bypassing the 2 NFTs per walelt limit. This is my best guess of how the contract looks.
+
+[Template](https://github.com/marcelc63/popular-contract-templates/tree/adidasoriginals-template)
+
+[Breakdown](https://twitter.com/marcelc63/status/1472120618690564102)
+
+Published 18 December 2021
+
 # Who am I?
 
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
