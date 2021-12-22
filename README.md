@@ -118,7 +118,7 @@ Published 15 December 2021
 
 ### #11 - AdidasOriginals
 
-Someone was able to mint 300 AdidasOriginals NFTs bypassing the 2 NFTs per walelt limit. This is my best guess of how the contract looks.
+Someone was able to mint 300 AdidasOriginals NFTs bypassing the 2 NFTs per wallet limit. This is my best guess of how the contract looks.
 
 [Template](https://github.com/marcelc63/popular-contract-templates/tree/adidasoriginals-template)
 
