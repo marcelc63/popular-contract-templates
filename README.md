@@ -116,7 +116,7 @@ AlphaGirlClub took the extra step to make minting gas efficient. In a good day, 
 
 Published 15 December 2021
 
-### #11 - AdidasOriginals
+### #12 - AdidasOriginals
 
 Someone was able to mint 300 AdidasOriginals NFTs bypassing the 2 NFTs per walelt limit. This is my best guess of how the contract looks.
 
@@ -125,6 +125,18 @@ Someone was able to mint 300 AdidasOriginals NFTs bypassing the 2 NFTs per walel
 [Breakdown](https://twitter.com/marcelc63/status/1472120618690564102)
 
 Published 18 December 2021
+
+### #13 - WAGMIGOTCHI
+
+The blockchain's pet. Created by @dhof, WAGMIGOTCHI is a co-op
+Blockchain Game where players come together to help caretake
+WAGMIGOTCHI.
+
+[Template](https://github.com/marcelc63/popular-contract-templates/tree/wagmigotchi-template)
+
+[Breakdown](https://twitter.com/marcelc63/status/1473684777643528198)
+
+Published 23 December 2021
 
 # Who am I?
 
