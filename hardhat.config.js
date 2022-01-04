@@ -17,11 +17,11 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-  solidity: "0.8.4",
+  solidity: "0.8.6",
   networks: {
-    rinkeby: {
-      url: ``, // Add your deployment URL. Remember to use and refer to .env
-      accounts: [``], // Add your private key. Remember to use and refer to .env
-    },
+    // rinkeby: {
+    //   url: ``, // Add your deployment URL. Remember to use and refer to .env
+    //   accounts: [``], // Add your private key. Remember to use and refer to .env
+    // },
   },
 };

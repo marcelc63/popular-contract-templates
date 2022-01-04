@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.3.2",
+    "@zoralabs/nft-editions-contracts": "^1.0.3",
     "prettier": "^2.4.1",
     "prettier-plugin-solidity": "*"
   }

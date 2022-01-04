@@ -1,9 +1,11 @@
 const main = async () => {
-  const ContractFactory = await hre.ethers.getContractFactory("Template");
+  const ContractFactory = await hre.ethers.getContractFactory("ZorbNFT");
 
   const contract = await ContractFactory.deploy();
   await contract.deployed();
   console.log("Contract deployed to:", contract.address);
+
+  contract.mint();
 };
 
 const runMain = async () => {
