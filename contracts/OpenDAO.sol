@@ -56,16 +56,26 @@ contract OpenDAO is ERC20, EIP712 {
 
   address public immutable cSigner;
 
+  // amountV, r, and s are signed and generated off chain
   function claim(
     uint256 amountV,
     bytes32 r,
     bytes32 s
   ) external {
+    // Unsure why amountV is casted as uint248 and assigned to uint256
     uint256 amount = uint248(amountV);
+    // >> is called a Right shift operator. It shifts specified number of bits to the right.
+    // v value for ECDSA has to be either 27 or 28
     uint8 v = uint8(amountV >> 248);
+
+    // Check supply
     uint256 total = _totalSupply + amount;
     require(total <= MAX_SUPPLY, "OpenDAO: Exceed max supply");
+
+    // Can only claim once
     require(minted(msg.sender) == 0, "OpenDAO: Claimed");
+
+    // Generate ECDSA hash
     bytes32 digest = keccak256(
       abi.encodePacked(
         "\x19Ethereum Signed Message:\n32",
@@ -75,7 +85,9 @@ contract OpenDAO is ERC20, EIP712 {
         )
       )
     );
+    // Hash has to match and equals 0xa141df28368d444c10a684bc40f23d2e4a8fa3be
     require(ecrecover(digest, v, r, s) == cSigner, "OpenDAO: Invalid signer");
+
     _totalSupply = total;
     _mint(msg.sender, amount);
   }
