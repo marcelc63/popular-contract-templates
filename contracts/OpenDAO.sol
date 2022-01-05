@@ -62,7 +62,7 @@ contract OpenDAO is ERC20, EIP712 {
     bytes32 r,
     bytes32 s
   ) external {
-    // Unsure why amountV is casted as uint248 and assigned to uint256
+    // Get amount to mint from amountV
     uint256 amount = uint248(amountV);
     // >> is called a Right shift operator. It shifts specified number of bits to the right.
     // v value for ECDSA has to be either 27 or 28
@@ -88,6 +88,7 @@ contract OpenDAO is ERC20, EIP712 {
     // Hash has to match and equals 0xa141df28368d444c10a684bc40f23d2e4a8fa3be
     require(ecrecover(digest, v, r, s) == cSigner, "OpenDAO: Invalid signer");
 
+    // Mint
     _totalSupply = total;
     _mint(msg.sender, amount);
   }
