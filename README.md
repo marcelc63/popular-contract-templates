@@ -138,6 +138,16 @@ WAGMIGOTCHI.
 
 Published 23 December 2021
 
+### #14 - $SOS
+
+How did $SOS whitelisted the entire OpenSea transactions? See how the biggest airdrop ever was done.
+
+[Template](https://github.com/marcelc63/popular-contract-templates/tree/sos-template)
+
+[Breakdown](https://twitter.com/marcelc63/status/1478546807785345024)
+
+Published 5 Jan 2022
+
 # Who am I?
 
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
