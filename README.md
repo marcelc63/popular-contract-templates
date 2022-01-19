@@ -148,6 +148,15 @@ How did $SOS whitelisted the entire OpenSea transactions? See how the biggest ai
 
 Published 5 Jan 2022
 
+### #15 - Solana Candy Machine v2
+
+Solana breakdown! What's the difference between Candy Machine v1
+and v2?
+
+[Breakdown](https://twitter.com/marcelc63/status/1480570145193951234)
+
+Published 5 Jan 2022
+
 # Who am I?
 
 My name is Marcel and I'm diving into the world of web3. In my quest to learn web3, a learning method I found effective is to read and breakdown popular smart contracts. This collecion is a byproduct of my learning.
