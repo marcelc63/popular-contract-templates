@@ -47,13 +47,19 @@ contract Template is ERC721, ReentrancyGuard, Ownable {
     address to,
     uint256 tokenId
   ) internal view override {
-    if (lockupPeriod && _diamondHand[_tokenSupply]) {
+    // If lockupPeriod active and tokenId registered as Diamond Hand, revert transfer
+    if (lockupPeriod && _diamondHand[tokenId]) {
       revert DiamondHandLockup();
     }
+
+    // If not, transfer will continue
   }
 
   function revealAndUnlock(string memory baseTokenURI) external onlyOwner {
+    // Unlock lockup period
     lockupPeriod = false;
+
+    // Update baseTokenURI
     _baseTokenURI = baseTokenURI;
   }
 }

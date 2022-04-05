@@ -33,7 +33,7 @@ contract Template is ERC721, ReentrancyGuard, Ownable {
   function reserveDiamondHand() external payable {
     require(msg.value >= _price, "Not enough ETH");
 
-    // Increment reserved token
+    // Increment reserved token, no token minted
     _diamondHand[msg.sender]++;
   }
 
@@ -45,6 +45,7 @@ contract Template is ERC721, ReentrancyGuard, Ownable {
   function claimDiamondHand() external {
     require(_diamondHand[msg.sender] > 0, "No NFTs reserved");
 
+    // Mint reserved tokens
     for (uint256 i; i < _diamondHand[msg.sender]; i++) {
       _tokenSupply++;
       _mint(msg.sender, _tokenSupply);
